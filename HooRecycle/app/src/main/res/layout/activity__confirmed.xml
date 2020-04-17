@@ -4,6 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00b200"
     tools:context=".Activity_Confirmed">
+
+    <TextView
+        android:id="@+id/volunteer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="525 McCormick Rd"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ohillmap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volunteer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
